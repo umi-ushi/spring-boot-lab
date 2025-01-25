@@ -31,6 +31,11 @@ kotlin {
     }
 }
 
+// https://github.com/JLLeitschuh/ktlint-gradle/issues/809
+ktlint {
+    version.set("1.4.1")
+}
+
 tasks.withType<Test> {
     useJUnitPlatform()
 }
