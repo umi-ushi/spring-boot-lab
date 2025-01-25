@@ -1,4 +1,4 @@
-package wa.umiushi.spring_boot_lab
+package wa.umiushi.spring.boot.lab
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
